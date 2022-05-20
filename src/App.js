@@ -78,6 +78,7 @@ export default function App(){
         .replaceAll("&rsquo;","‘")
         .replaceAll("&Irm;","'")
         .replaceAll("&Eacute;","é")
+        .replaceAll("&oacute;","ó")
         
         
     }
