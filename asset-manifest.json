@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quizzicalGame/static/css/main.37f2554d.css",
+    "main.js": "/quizzicalGame/static/js/main.ebcc8038.js",
+    "index.html": "/quizzicalGame/index.html",
+    "main.37f2554d.css.map": "/quizzicalGame/static/css/main.37f2554d.css.map",
+    "main.ebcc8038.js.map": "/quizzicalGame/static/js/main.ebcc8038.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37f2554d.css",
+    "static/js/main.ebcc8038.js"
+  ]
+}
