@@ -77,6 +77,9 @@ export default function App(){
         .replaceAll("&shy;","-")
         .replaceAll("&rsquo;","‘")
         .replaceAll("&Irm;","'")
+        .replaceAll("&Eacute;","é")
+        
+        
     }
 //map over quizData to get desired data 
     function renderQuiz(){
@@ -95,7 +98,8 @@ export default function App(){
     }
     const restartQuiz = ()=>{
         setRestart(prevStart => !prevStart)
-        location.reload()
+       const reloadPage = window.location.reload()
+       reloadPage()
         // renderQuiz()
         // setStartQuiz(true)
         // setScore(0)
@@ -120,7 +124,7 @@ export default function App(){
             holdAnswer={holdAnswer}
         />
     })
-    // console.log(quizData[0])
+     console.log("rendered")
     return(
         <main >
        

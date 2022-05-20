@@ -10,6 +10,7 @@ export default function Question(props){
         .replaceAll("&rsquo;","'")
         .replaceAll("&shy;","'")
         .replaceAll("&lrm;","'")
+        .replaceAll("&Eacute;","é")
     }
 
     const displayOptions = props.options.map(item => {
